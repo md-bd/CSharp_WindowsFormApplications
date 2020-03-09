@@ -128,7 +128,7 @@ namespace EEE424
             dbAdap.Fill(ds);
             conn.Close();
 
-            MessageBox.Show("inside data_gridview 1");
+            //MessageBox.Show("inside data_gridview 1");
 
             dataGridView1.Rows.Clear();
 
